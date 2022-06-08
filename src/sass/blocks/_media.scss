@@ -1,0 +1,179 @@
+@media (max-width:1200px) {
+    .container {
+        width: 90%
+    }
+    .promo {
+        min-height: 570px;
+        padding: 15px 0 65px 0;
+        background: url('../../img/bg/main_bg.jpg') center (center/cover) no-repeat;
+    }
+    .advantages {
+        background-color: #F6F6F6;  
+        padding: 50px 0 50px 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .promo {
+        min-height: 570px;
+        padding: 15px 0 45px 0;
+        background: url('../../img/bg/main_bg.jpg') center (center/cover) no-repeat;
+        &__wrapper {
+            margin-top: 45px;
+            align-items: flex-end;
+        }
+        &__header {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__subheader {
+            margin-top: 5px;
+            font-size: 19px;
+            line-height: 19px;
+        }
+        &__link {
+            margin-top: 10px;
+            font-size: 15px;
+            line-height: 15px;
+        }
+    }
+    .advantages {
+        background-color: #F6F6F6;
+        padding: 40px 0 40px 0;
+        &__title {
+            font-size: 25px;
+        }
+        &__wrap {
+            margin-top: 45px;
+            &_item {
+                max-width: 225px;
+            }
+            &_title {
+                margin-top: 25px;
+                font-size: 15px;
+            }
+            &_descr {
+                margin-top: 15px;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    .button {
+        &_main {
+            margin-top: 45px;
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+
+        }
+    }
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .promo {
+        min-height: 540px;
+        padding: 15px 0 40px 0;
+        background: url('../../img/bg/main_bg_xs.jpg') center (center/cover) no-repeat;
+    }
+    .advantages {
+        background-color: #F6F6F6;  
+        padding: 50px 0 50px 0;
+        &__title {
+            font-size: 25px;
+        }
+        &__wrap {
+            margin-top: 45px;
+            &_item {
+                max-width: 200px;
+            }
+            &_title {
+                margin-top: 25px;
+                font-size: 12px;
+            }
+            &_descr {
+                margin-top: 15px;
+                font-size: 10px;
+                line-height: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+        &__logo {
+            img {
+                width: 60%;
+            }
+            
+        }
+    }
+    .promo {
+        min-height: 470px;
+        padding: 15px 0 30px 0;
+        background: url('../../img/bg/main_bg_xs.jpg') center (center/cover) no-repeat;
+        &__wrapper {
+            margin-top: 45px;
+            align-items: flex-end;
+        }
+        &__header {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__subheader {
+            margin-top: 5px;
+            font-size: 10px;
+            line-height: 10px;
+        }
+        &__link {
+            margin-top: 25px;
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__icons {
+            margin-top: 50px;
+            width: 280px;
+        }
+        &__icon {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+
+    .button {
+        margin-top: 5px;
+        width: 135px;
+        height: 30px;
+        font-size: 10px;
+        &_main {
+            margin-top: 35px;
+            width: 230px;
+            height: 35px;
+            font-size: 12px;
+        }
+    }
+
+    .advantages {
+        background-color: #F6F6F6;  
+        padding: 50px 0 50px 0;
+            &__title {
+                font-size: 17px;
+            }
+            &__wrap {
+                margin-top: 10px;
+                flex-direction: column;
+                align-items: center;
+                &_item {
+                    margin-top: 20px;
+                }
+            }
+
+    }        
+}
