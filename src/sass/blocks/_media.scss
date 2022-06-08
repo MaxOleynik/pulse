@@ -107,6 +107,9 @@
         }
         &__phone {
             font-size: 12px;
+            &:hover {
+                display: none;
+            }
         }
         &__logo {
             img {
