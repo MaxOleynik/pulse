@@ -11,6 +11,14 @@
         background-color: #F6F6F6;  
         padding: 50px 0 50px 0;
     }
+    .slick-dots {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px auto;
+        button {
+            display: none;
+        }
+    }
 }
 @media screen and (max-width: 991px) {
     .promo {
@@ -68,6 +76,45 @@
     }
 
     }
+    .consultation {
+        padding: 50px 0 50px 0;
+        &__descr {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    
+    .title {
+        &_left {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+
+    .carousel {
+        min-height: 580px;
+        padding: 81px 0;
+        &__inner {
+            position: relative;
+            min-width: 700px;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px auto;
+            button {
+                display: none;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -95,6 +142,47 @@
                 margin-top: 15px;
                 font-size: 10px;
                 line-height: 13px;
+            }
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 50px 0 50px 0;
+        &__descr {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    
+    .title {
+        &_left {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    }
+    
+    .carousel {
+        min-height: 580px;
+        padding: 81px 0;
+        &__inner {
+            position: relative;
+            min-width: 600px;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: space-around;
+            margin: 15px auto;
+            width: 300px;
+            button {
+                display: none;
             }
         }
     }
@@ -178,5 +266,61 @@
                 }
             }
 
-    }        
+    }
+    .consultation {
+        min-height: 350px;
+        padding: 25px 0 25px 0;
+        &__descr {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+    
+    .title {
+        &_left {
+            font-size: 10px;
+            line-height: 15px;
+        }
+    }   
+    .feed-form {
+        margin-top: 20px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .button{
+        &_submit {
+            margin-top: 5px;
+            width: 140px;
+            height: 45px;
+            font-size: 8px;
+        }
+
+    }
+
+    .carousel {
+        min-height: 250px;
+        padding: 25px 0;
+        &__inner {
+            position: relative;
+            min-width: 280px;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px auto;
+            width: 200px;
+            button {
+                display: none;
+            }
+        }
+    }
 }
