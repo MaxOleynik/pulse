@@ -19,6 +19,15 @@
             display: none;
         }
     }
+
+    .catalog-item {
+        width: 280px;
+        min-height: 433px;
+        border: 2px solid #e8e8e8;
+        padding: 15px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 991px) {
     .promo {
@@ -114,6 +123,30 @@
                 display: none;
             }
         }
+
+        
+    }
+
+    .catalog-item {
+        width: 220px;
+        min-height: 433px;
+        border: 2px solid #e8e8e8;
+        padding: 15px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        &__link {
+            font-size: 12px;
+        }
+        &__price {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    }
+    .button_mini {
+        width: 102px;
+        height: 26px;
+        font-size: 12px;
+        line-height: 22px;
     }
 }
 
@@ -185,6 +218,33 @@
                 display: none;
             }
         }
+    }
+    .catalog-item {
+        width: 210px;
+        &_catalog-item {
+            padding-top: 40px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 25px;
+            padding: 20px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+        &__price {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    }
+    .button_mini {
+        width: 102px;
+        height: 26px;
+        font-size: 12px;
+        line-height: 22px;
     }
 }
 
@@ -321,6 +381,26 @@
             button {
                 display: none;
             }
+        }
+    }
+    .catalog-item {
+        width: 380px;
+        min-height: 433px;
+        border: 2px solid #e8e8e8;
+        padding: 20px;
+        overflow: hidden;
+        margin: 20px auto;
+        
+    }
+    .catalog {
+        &__tabs{
+            flex-direction: column;
+        }
+        &__tab{
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 20px;
         }
     }
 }
