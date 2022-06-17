@@ -39,12 +39,20 @@
 
     &__content {
         margin-top: 60px;
+        display: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 303px;
         min-height: 442px;
         border: 2px solid #E8E8E8;
         padding: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
         &__img {
             display: block;
             margin: 0 auto;
@@ -75,6 +83,7 @@
             line-height: 14px;
             text-align: center;
             text-decoration-line: underline;
+            text-transform: uppercase;
             color: $main-color;
             &:hover {
                 color: $main-color;
@@ -102,6 +111,68 @@
             font-size: 20px;
             line-height: 20px;
             color: #050505;
+        }
+        &__wrapper {
+            display: flex;
+            width: calc(200% + 40px);
+
+        }
+        &__content{
+            width: 50%;
+            margin-right: 0;
+            transform: translateX(-100%);
+            transition: all 0.5s;
+            &_active {
+                transform: translateX(0%);
+                margin-right: 20px;
+            }
+        }
+        &__list {
+            position: relative;
+            width: 50%;
+            margin-left: 20px;
+            transform: translateX(0%);
+            padding-right: 20px;
+            transition: all 0.5s;
+            padding-left: 19px;
+            margin-bottom: 0;
+            list-style-type: none;
+            &_active {
+                transform: translateX(-100%);
+                margin-left: 0;
+            }
+            li {
+                position: relative;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 21px;
+                color: #555555;
+                margin-bottom: 10px;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background-color: $main-color;
+                    left: -14px;
+                    top: 7px;
+                }
+            }
+        }
+        &__back {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 19px));
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            color: $main-color;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
 }
