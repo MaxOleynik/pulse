@@ -11,6 +11,11 @@
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+    &:hover {
+        background-color: #ec1212;
+        color: #FFFFFF;
+        box-shadow: 3px 3px 20px $main-color;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;

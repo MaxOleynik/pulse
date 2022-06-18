@@ -45,5 +45,10 @@
         height: 52px;
         border: 2px solid #FFFFFF;
         border-radius: 100%;
+        &:hover {
+            background-color: #eb2121e1;
+            box-shadow: 1px 1px 5px #FFFFFF;
+        }
+       
     }
 }

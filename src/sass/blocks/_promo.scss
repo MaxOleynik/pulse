@@ -54,6 +54,10 @@
         a {
             text-transform: uppercase;
             color: #FFFFFF;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
 }
