@@ -310,6 +310,36 @@
             width: 360px;
         }
     }
+
+    .modal {
+        width: 300px;
+        min-height: 330px;
+        padding: 25px;
+        &__subtitle {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        .error {
+            font-size: 13px;
+        }
+
+    }
+    .feed-form_mt25 {
+        width: 250px;
+        input {
+            height: 45px;
+        }
+
+    }
+    .button_submit {
+        font-size: 13px;
+        height: 45px;
+
+    }
 }
 @media screen and (max-width:575px) {
     .header {
@@ -532,4 +562,47 @@
             }
         }
     }
+
+    .modal {
+        width: 225px;
+        min-height: 280px;
+        padding: 25px 8px;
+        &__subtitle {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__descr {
+            font-size: 10px;
+            line-height: 10px;
+        }
+        .error {
+            font-size: 10px;
+        }
+        &__close {
+            font-size: 20px;
+            line-height: 10px;
+            right: -15px;
+        }
+
+    }
+    .feed-form_mt25 {
+        width: 100%;
+        input {
+            height: 50px;
+        }
+
+    }
+    .button_submit {
+        width: 100%;
+        font-size: 11px;
+        height: 50px;
+        
+    }
+    .pageup {
+        bottom: 25px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
 }
